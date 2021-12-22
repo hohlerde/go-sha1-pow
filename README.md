@@ -8,6 +8,7 @@ This repository contains a naive implementation of a Proof of Work (POW) using S
 For a given string (prefix), find another string (suffix) so that SHA1(prefix+suffix) returns a SHA1 hash with N leading zeros. N has also named the difficulty.
 
 Note that the suffix string can be a (hexadecimal) number.
+
 ### Example
 Difficulty: `5`  
 Prefix string: `afsgehfdjue76HGZjdjgREWGDGlie`  
@@ -16,7 +17,7 @@ SHA1: `00 00 07 ce 98 67 a5 dc b9 ec 66 2d 72 72 0a 00 47 4b 5e 6e`
 
 Commandline:  
 ```
-./main --prefix afsgehfdjue76HGZjdjgREWGDGlie --difficulty 5
+/main --prefix=afsgehfdjue76HGZjdjgREWGDGlie --difficulty=5 --debug=false
 ```
 
 ## Performance
