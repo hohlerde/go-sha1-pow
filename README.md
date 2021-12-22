@@ -1,3 +1,6 @@
+# Important
+The main repository is hosted at [Codeberg](https://codeberg.org/hohlerde/sha1-pow).
+
 # Proof of Work (SHA1)
 This repository contains a naive implementation of a Proof of Work (POW) using SHA1 hashes in Go.
 
